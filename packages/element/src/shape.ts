@@ -243,7 +243,7 @@ export const generateRoughOptions = (
   }
 };
 
-const modifyIframeLikeForRoughOptions = (
+export const modifyIframeLikeForRoughOptions = (
   element: NonDeletedExcalidrawElement,
   isExporting: boolean,
   embedsValidationStatus: EmbedsValidationStatus | null,
